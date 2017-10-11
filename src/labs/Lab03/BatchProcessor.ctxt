@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=inv
+comment0.target=BatchProcessor(Inventory)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ BatchProcessor.\r\n\ \r\n\ @param\ inv\ the\ inventory\ to\ which\ the\ transactions\ are\ applied\r\n\ @throws\ IllegalArgumentException\ if\ the\ argument\ is\ invalid\r\n
+comment1.params=fileName
+comment1.target=int\ process(java.lang.String)
+comment1.text=\r\n\ Reads\ the\ transactions\ from\ a\ file\ and\ executes\ them\ on\r\n\ the\ inventory.\r\n\ \r\n\ @param\ fileName\ the\ name\ of\ the\ file\ from\ which\ to\ read\r\n\ @return\ the\ number\ of\ successfully\ executed\ transactions,\ or\ -1\r\n\ \ \ \ \ \ \ \ \ \ if\ the\ file\ could\ not\ be\ opened\r\n
+comment2.params=reader
+comment2.target=int\ process(java.io.Reader)
+comment2.text=\r\n\ Reads\ the\ transactions\ from\ the\ given\ Reader,\r\n\ executing\ them\ on\ the\ inventory.\r\n\ \r\n\ @param\ reader\ the\ reader\ from\ which\ to\ read\r\n\ @return\ the\ number\ of\ successfully\ executed\ transactions\r\n
+numComments=3

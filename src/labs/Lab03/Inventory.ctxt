@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=lot
+comment0.target=boolean\ addLot(Lot)
+comment0.text=\r\n\ Adds\ a\ lot\ to\ inventory.\r\n\ \r\n\ @param\ \ lot\ \ the\ lot\ to\ be\ added\ to\ inventory.\r\n\ @return\ \ \ \ \ \ <code>true</code>\ if\ the\ lot\ was\ added\ successfully,\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ <code>false</code>\ if\ the\ lot\ was\ not\ added.\r\n
+comment1.params=lotNumber
+comment1.target=boolean\ deleteLot(int)
+comment1.text=\r\n\ Deletes\ a\ lot\ from\ inventory.\r\n\ \r\n\ @param\ \ lotNumber\ \ the\ number\ of\ the\ lot\ to\ be\ deleted.\r\n\ @return\ \ \ \ \ \ <code>true</code>\ if\ the\ lot\ was\ deleted\ successfully,\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ <code>false</code>\ if\ the\ lot\ was\ not\ deleted.\r\n
+comment2.params=itemId
+comment2.target=int\ queryItemQty(java.lang.String)
+comment2.text=\r\n\ Returns\ the\ quantity\ on-hand\ in\ inventory\ for\ the\ given\ item\ id.\ \r\n\ The\ item\ id\ may\ be\ contained\ in\ more\ than\ one\ lot\ in\ the\ inventory.\ \r\n\ The\ quantity\ on-hand\ is\ the\ total\ number\ of\ items\ with\ that\ item\ id\ \r\n\ across\ all\ lots\ in\ inventory.\r\n\ \r\n\ @param\ \ itemId\ \ the\ id\ of\ the\ item\ to\ be\ searched\ for\ in\ the\ inventory.\r\n\ @return\ \ \ \ \ \ the\ quanity\ on-hand.\r\n
+comment3.params=itemId\ qty
+comment3.target=boolean\ remove(java.lang.String,\ int)
+comment3.text=\r\n\ Removes\ a\ quantity\ of\ items\ from\ inventory.\ The\ items\ may\ be\ contained\r\n\ in\ more\ than\ one\ lot.\ If\ the\ total\ number\ of\ items\ cannot\ be\ removed,\ \r\n\ no\ items\ are\ removed\ from\ inventory.\r\n\ \r\n\ @param\ \ itemId\ \ the\ identifier\ of\ the\ items\ to\ be\ removed.\r\n\ @param\ \ qty\ \ \ \ \ the\ number\ of\ items\ to\ be\ removed.\r\n\ @return\ \ \ \ \ \ \ \ \ <code>true</code>\ if\ the\ items\ removed\ successfully,\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ <code>false</code>\ if\ all\ the\ items\ not\ removed.\r\n
+comment4.params=
+comment4.target=int\ getLotCount()
+comment4.text=\r\n\ Returns\ the\ number\ of\ lots\ in\ inventory.\r\n\ \r\n\ @return\ \ \ \ \ \ the\ number\ of\ lots.\r\n
+comment5.params=lotNo
+comment5.target=Lot\ getLot(int)
+comment5.text=\r\n\ Returns\ the\ lot\ with\ a\ given\ lot\ number.\r\n\ \r\n\ @param\ \ \ lotNo\ \ \ the\ number\ of\ the\ lot\ to\ be\ returned.\r\n\ @return\ \ \ \ \ \ \ \ \ \ the\ first\ lot\ found\ if\ it\ exists\ in\ inventory\ or\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <code>null</code>\ if\ the\ lot\ does\ not\ exist\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ in\ inventory.\r\n
+numComments=6

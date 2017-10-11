@@ -1,0 +1,5 @@
+ADD Part id=MS721,desc=widget,qty=23,cost=12.34,supplier=MacSupply,fee=1.11
+Add Product id=AP5273,desc=assembly,qty=10,cpst=93.17
+UPDATE 1 desc=bearing,qty=22
+remove MS721 5
+delete 2

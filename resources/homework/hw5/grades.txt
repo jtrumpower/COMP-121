@@ -1,0 +1,1 @@
+A=Excellent B=Good C=Adequate D=Marginal E=Unacceptable
